@@ -196,18 +196,18 @@ var timerStart = function(){
 	$('.timerSection').append(timeTag);
 	$('.time').append(progressBar);	
 	//Decrements Time
-	timer = setInterval(timeDecrement,300);
+	timer = setInterval(timeDecrement,100);
 }
 var timeDecrement = function(){ 
 	//Progress bar decrement
 	$('.progress-bar').width(trivTime + '%');
-	trivTime = trivTime - 1;
+	trivTime--;
 	//if time gets to 0
-	if(trivTime === -20){
+	if(trivTime === -10){
+		userAnswer = false;
 		//Clears Time
 		clearInterval(timer);
-		//Testing
-		console.log('Time stopped')
+		checkAnswer();
 	}
 	
 }
