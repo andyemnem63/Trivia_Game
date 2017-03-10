@@ -1,5 +1,7 @@
 <<<<<<< HEAD
-
+body{
+  background-color: maroon;
+}
 .start{
 	padding:0;		
 }
@@ -10,8 +12,7 @@ h1{
 .header{
 	height: 200px;
 	width: 100%;
-	border: 5px solid black;
-    border-radius: 5px;
+
 }
 .marioImg{
 	height: 180px;
