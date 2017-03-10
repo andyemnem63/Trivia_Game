@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .start{
 	padding:0;		
@@ -77,4 +78,85 @@ fieldset[disabled] .redBtn.active {
 .redBtn .badge { 
   color: #DE1122; 
   background-color: #FFFFFF; 
+=======
+
+.start{
+	padding:0;		
+}
+
+h1{ 
+	text-align: center;
+}
+.header{
+	height: 200px;
+	width: 100%;
+	border: 5px solid black;
+    border-radius: 5px;
+}
+.marioImg{
+	height: 180px;
+	display: block;
+    margin:auto;
+}
+.startBtn{
+	width: 500px;
+}
+.trivSection{ 
+	margin-top: 100px;
+	text-align: center;
+ }
+ .question, .answers, .rightAnswer, .wrongAnswer, .gameOver, .score{
+ 	font-family: 'Press Start 2P', cursive;
+ 	padding: 30px;
+ 	font-size: 15px;
+ 	margin: 10px;
+ }
+
+ /*buttons*/
+ .redBtn { 
+  color: #FFFFFF; 
+  background-color: #DE1122; 
+  border-color: #000000;
+
+} 
+ 
+.redBtn:hover, 
+.redBtn:focus, 
+.redBtn:active, 
+.redBtn.active, 
+.open .dropdown-toggle.redBtn { 
+  color: #FFFFFF; 
+  background-color: #851515; 
+  border-color: #000000; 
+} 
+ 
+.redBtn:active, 
+.redBtn.active, 
+.open .dropdown-toggle.redBtn { 
+  background-image: none; 
+} 
+ 
+.redBtn.disabled, 
+.redBtn[disabled], 
+fieldset[disabled] .redBtn, 
+.redBtn.disabled:hover, 
+.redBtn[disabled]:hover, 
+fieldset[disabled] .redBtn:hover, 
+.redBtn.disabled:focus, 
+.redBtn[disabled]:focus, 
+fieldset[disabled] .redBtn:focus, 
+.redBtn.disabled:active, 
+.redBtn[disabled]:active, 
+fieldset[disabled] .redBtn:active, 
+.redBtn.disabled.active, 
+.redBtn[disabled].active, 
+fieldset[disabled] .redBtn.active { 
+  background-color: #DE1122; 
+  border-color: #000000; 
+} 
+ 
+.redBtn .badge { 
+  color: #DE1122; 
+  background-color: #FFFFFF; 
+>>>>>>> 11486c924618acf896f69b867d9b53eab7e5ebea
 }
